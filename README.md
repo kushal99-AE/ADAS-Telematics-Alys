@@ -1,24 +1,22 @@
 # ADAS-Fleet-Telematics-Data Analysis & Validation Pipeline
 
 > **Project Goal:**  
-Simulate the ADAS validation workflow by analyzing large-scale customer fleet data to define test cases, identify high-risk driving conditions, and demonstrate a scalable data-driven validation approach using AWS and BigData technologies.
+To conduct a real-world ADAS validation and test planning pipeline by analyzing U.S. accident data and global vehicle GPS trajectories. The project aims to:
+
+Identify high-risk driving conditions using large-scale crash data
+
+Extract driving behavior patterns from real-world GPS trajectory logs
+
+Define U.S.-specific ADAS test cases and requirements
+
+Perform statistical modeling to forecast risk-prone scenarios
+
+Demonstrate the end-to-end capability to support data-driven ADAS development and regression testing
 
 ---
 
-## 🔍 Background
-
-Demonstrated the following deliverables:
-- Fleet data analytics
-- Data-driven ADAS test case definition
-- AWS-based scalable validation pipelines
-- Statistical modeling and time-series forecasting
 
 # 📊 Dataset(s) Used
-
-### [US Accidents Dataset (Kaggle)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
-- ~3M+ records of US traffic accidents
-- Columns: Severity, Time, Weather, Visibility, Road Condition, etc.
-- Use case: Identify driving conditions where ADAS could assist or prevent crashes.
 
 ### [GeoLife GPS Trajectories (Microsoft Research Asia)](https://www.microsoft.com/en-us/download/details.aspx?id=52367))
 - Simulate real-world vehicle trajectories to augment crash/event data
